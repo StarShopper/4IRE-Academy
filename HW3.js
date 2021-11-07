@@ -1,1 +1,0 @@
-aletrt("Fibonacci Sequence");
