@@ -47,12 +47,12 @@ while ((secNum.toFixed() != secNum) || isNaN(secNum || secNum == "")) {
 }
 
 let n = +prompt('Enter num from Fibonacci seq.: (n)', "");
-while ((n.toFixed() != n)|| isNaN(n || n == "")) {
+while ((n.toFixed() != n) || isNaN(n || n == "")) {
     n = +prompt("try again", "");
 }
 
-if (firstNum > 0 && secNum > 0){
+if (firstNum > 0 && secNum > 0) {
     alert(`Your Positive Figonacci seq, value is: ${FibonSeqPos(firstNum, secNum, n)}`);
-} else{
+} else {
     alert(`Your Negative Figonacci seq, value is: ${FibonSeqNeg(firstNum, secNum, n)}`);
 }
